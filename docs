@@ -1,6 +1,48 @@
-00-executive-summary.md
-01-problem-statement.md
-02-architecture.md
+# Executive Summary
+
+This project is a Lakehouse Quality & Governance Framework that operationalizes:
+1) measurable data quality SLIs/SLOs,
+2) policy-as-code governance controls,
+3) automated validation + reporting,
+4) audit-ready evidence.
+
+It is designed to be portable across Lakehouse implementations and focuses on repeatability: the same patterns can be applied to multiple domains, datasets, and pipelines.
+
+
+# Problem Statement
+
+Modern lakehouses scale faster than governance. Teams add pipelines quickly, but:
+- quality definitions differ per team,
+- ownership and accountability are unclear,
+- schema drift breaks downstream systems,
+- PII controls are inconsistent,
+- there is no unified “health score” for leadership.
+
+## Objectives
+- Define standard SLIs/SLOs for datasets
+- Implement policy-as-code governance
+- Automate checks and produce consistent reports
+- Provide audit-friendly artifacts and traceability
+
+# Architecture
+
+## Components
+- **Quality Spec (Contract)**: dataset rules expressed in YAML
+- **Validation Engine**: executes checks against datasets
+- **Quality Scoring**: computes dataset health score and trends
+- **Governance Policy Engine**: evaluates access/PII/retention rules
+- **Observability Layer**: SLA monitoring, drift/anomaly hooks
+- **Reporting**: publishes daily/weekly governance & quality scorecards
+
+## Data Flow (conceptual)
+1) Dataset contract is defined (owner, SLA, rules)
+2) Checks run on schedule or on pipeline completion
+3) Results are stored (metrics + failures + trends)
+4) Policy engine evaluates governance compliance
+5) Reports and alerts are generated
+
+(Architecture diagram will be added in Day 2 under docs/images/)
+
 03-design-decisions.md
 04-data-quality-spec.md
 05-governance-security.md
