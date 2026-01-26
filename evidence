@@ -1,9 +1,70 @@
-o1-mapping.md
+# O-1 Evidence Mapping (GitHub Project)
 
-originality.md
+## Criterion 5 — Original Contributions of Major Significance (Primary)
+**Claim:** This framework introduces a repeatable, measurable approach to lakehouse reliability that combines:
+- standardized SLIs/SLOs for data quality,
+- governance policy-as-code,
+- scoring + trend reporting,
+- audit-ready evidence packaging.
 
-impact-metrics.md
+### Evidence in this repo
+- Architecture + design documents: `docs/02-architecture.md`, `docs/03-design-decisions.md`
+- Formal quality spec concept (contracts): `docs/04-data-quality-spec.md` (Day 2)
+- Governance controls definition: `docs/05-governance-security.md` (Day 2)
+- Quality scoring approach: `evidence/originality.md` + `src/quality/` (Day 3)
+- Impact metrics template: `evidence/impact-metrics.md` (Day 1/2)
+- Releases + change log (planned): GitHub Releases (Day 4+)
 
-adoption-validation.md
+## Criterion 6 — Authorship (Optional Booster)
+- Publish 1–2 articles describing the framework and link back to this repo.
+(Add links here when published.)
+
+## Criterion 7 — Critical Role (Optional Booster)
+- If adopted by a client/team: add an adoption letter + usage proof in `evidence/adoption-validation.md`.
+
+## Supporting Exhibits
+- Demo screenshots, scorecards, diagrams, reports
+- CI pipeline and reproducible local quickstart
+
+
+# Originality Statement
+
+## What existed before
+Most teams implement quality checks inconsistently (ad-hoc scripts, dashboard checks, or one-off Great Expectations suites) and treat governance as separate from reliability.
+
+## What is unique here
+This framework unifies:
+- quality SLIs/SLOs,
+- policy-as-code governance,
+- scoring + trend reporting,
+- audit/evidence packaging,
+in one repeatable structure that can be applied to multiple domains.
+
+## Why it matters
+It converts “data trust” from opinions into measurable metrics and standardized controls, enabling leadership visibility and compliance readiness.
+
+
+# Impact Metrics (Template)
+
+Track measurable impact as the project evolves:
+
+- Datasets covered:
+- % datasets with contracts:
+- Checks automated:
+- SLA breach detection time (before/after):
+- Data incidents reduced (monthly):
+- Cost savings estimate (hours saved/week):
+- Data freshness improvement:
+- Governance compliance rate:
+
+
+# Adoption / Validation Evidence
+
+Add proof such as:
+- screenshots of dashboards/alerts,
+- usage logs,
+- stakeholder testimonials,
+- letters confirming production usage and value.
+
 
 recommendation-letter-snippets.md
