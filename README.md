@@ -24,9 +24,26 @@ This project provides a repeatable, production-minded framework that:
 - **Observability**: SLA breach detection, drift checks, anomaly detection hooks
 - **Audit & Evidence**: exportable reports and O-1 mapping artifacts
 
-## Architecture (high level)
-See: `docs/02-architecture.md`  
-(Diagram placeholder will be added in Day 2 in `docs/images/`)
+## Problem Statement
+Organizations operating lakehouse platforms often lack standardized, 
+scalable mechanisms for enforcing data quality, monitoring reliability, 
+and governing analytical datasets used by downstream AI and business systems.
+
+## Original Contribution
+This framework proposes a unified, modular approach to:
+- Data validation and expectations
+- Quality metrics and SLAs
+- Observability and alerting
+- Governance controls aligned with enterprise standards
+
+## Architecture Overview
+[Architecture diagram to be added]
+
+## Key Features
+- Modular quality checks
+- Scalable validation pipelines
+- Cloud-native design
+- Integration-ready for ML systems
 
 ## Quickstart (placeholder)
 Day 2 will include a runnable docker-based local stack for:
@@ -40,10 +57,9 @@ Day 2 will include a runnable docker-based local stack for:
 - Provide platform-wide reliability reporting for leadership
 - Detect and prevent schema drift and broken contracts
 
-## Evidence & O-1 Alignment
-This repository is structured to support documentation for:
-- **O-1 Criterion 5 (Original Contributions)** via system design, framework originality, and measurable impact
-See `evidence/o1-mapping.md`.
+## Why This Matters
+Reliable and governed data platforms are foundational to trustworthy AI 
+and scalable analytics systems in production environments.
 
 ## Roadmap
 See `docs/07-roadmap.md`
