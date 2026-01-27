@@ -39,6 +39,25 @@ This framework proposes a unified, modular approach to:
 ## Architecture Overview
 <img width="1617" height="580" alt="architecture png" src="https://github.com/user-attachments/assets/26f62a04-9cc7-4a28-954b-1c1108520ff6" />  
 
+## Impact & Significance
+This framework addresses a critical industry gap in how organizations
+ensure data reliability and governance within scalable lakehouse platforms.
+
+By providing a structured and extensible approach to data quality and
+observability, this contribution enables analytics and AI teams to
+reduce downstream failures, improve trust in data products, and support
+enterprise-level compliance and decision-making.
+
+The concepts and architecture outlined here are applicable across
+industries including finance, healthcare, and large-scale digital platforms.
+
+## Industry Relevance
+The framework is designed to be cloud-agnostic and adaptable across
+AWS, Azure, and hybrid data platforms.
+
+Its modular architecture allows independent teams, organizations,
+and practitioners to adopt the concepts for improving data quality
+and governance in their own production environments.
 
 ## Key Features
 - Modular quality checks
