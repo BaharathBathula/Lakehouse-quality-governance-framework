@@ -37,7 +37,8 @@ This framework proposes a unified, modular approach to:
 - Governance controls aligned with enterprise standards
 
 ## Architecture Overview
-[Architecture diagram to be added]
+<img width="1617" height="580" alt="architecture png" src="https://github.com/user-attachments/assets/26f62a04-9cc7-4a28-954b-1c1108520ff6" />  
+
 
 ## Key Features
 - Modular quality checks
