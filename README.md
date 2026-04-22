@@ -155,6 +155,13 @@ Airflow
 FastAPI
 PostgreSQL
 AWS / Azure / GCP
+
+## Future Enhancements
+AI-powered anomaly detection
+Auto-remediation pipelines
+Data lineage visualization
+Real-time governance dashboards
+
 ## Why This Matters
 Reliable and governed data platforms are foundational to trustworthy AI 
 and scalable analytics systems in production environments.
