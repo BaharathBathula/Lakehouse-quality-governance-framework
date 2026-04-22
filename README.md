@@ -57,6 +57,71 @@ This framework proposes a unified, modular approach to:
 ## Architecture Overview
 <img width="1617" height="580" alt="architecture png" src="https://github.com/user-attachments/assets/26f62a04-9cc7-4a28-954b-1c1108520ff6" />  
 
+## ⚙️ Execution Flow
+
+The framework follows a structured pipeline to enforce data quality, governance, and observability across datasets.
+
+### Step 1: Data Ingestion
+- Data is ingested from batch or streaming sources  
+- Example: transaction datasets, event streams  
+
+### Step 2: Load Data Contracts
+- Dataset contracts (YAML) define:
+  - Schema expectations  
+  - Required fields  
+  - Quality SLAs  
+
+### Step 3: Validation Engine Execution
+- Apply validation rules:
+  - Not null checks  
+  - Uniqueness checks  
+  - Allowed value constraints  
+  - Numeric thresholds  
+
+### Step 4: Governance Policy Enforcement
+- Apply policy-as-code rules:
+  - PII classification  
+  - RBAC validation  
+  - Encryption requirements  
+  - Retention policies  
+
+### Step 5: SLA & Observability Evaluation
+- Monitor:
+  - Freshness  
+  - Completeness  
+  - Validity  
+  - Pipeline health  
+
+- Detect:
+  - SLA breaches  
+  - Data drift  
+  - Anomalies  
+
+### Step 6: Scoring Engine
+- Compute dataset quality score  
+- Apply severity-based weighting  
+- Generate health status  
+
+### Step 7: Reporting & Outputs
+- Generate:
+  - `quality_report.json`  
+  - `governance_report.json`  
+  - `sla_report.json`  
+  - `executive_summary.md`  
+
+---
+
+## Result
+
+This pipeline ensures that:
+
+- Data issues are detected early  
+- Governance policies are consistently enforced  
+- SLA compliance is continuously monitored  
+- Audit-ready reports are generated automatically  
+
+This enables a **proactive, reliable, and governed data platform**.
+
 ## Impact & Significance
 This framework addresses a critical industry gap in how organizations
 ensure data reliability and governance within scalable lakehouse platforms.
