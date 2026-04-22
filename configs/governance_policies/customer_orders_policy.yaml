@@ -1,0 +1,39 @@
+dataset_name: customer_orders
+governance_owner: governance-office@company.com
+classification: confidential
+regulatory_scope:
+  - GDPR
+  - internal_data_policy
+
+pii_columns:
+  - customer_id
+
+access_control:
+  model: RBAC
+  allowed_roles:
+    - data_admin
+    - analytics_lead
+    - compliance_officer
+    - platform_engineer
+  restricted_roles:
+    - intern
+    - external_vendor
+
+encryption:
+  required: true
+  at_rest: true
+  in_transit: true
+  standard: AES256
+
+retention:
+  retention_days: 365
+  deletion_policy: soft_delete_then_archive
+
+audit_controls:
+  access_logging_required: true
+  policy_review_frequency: quarterly
+  evidence_export_required: true
+
+exceptions:
+  approval_required: true
+  approving_group: data-governance-council
