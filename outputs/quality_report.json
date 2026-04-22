@@ -1,0 +1,44 @@
+{
+  "dataset_name": "customer_orders",
+  "report_date": "2026-04-22",
+  "overall_quality_score": 94,
+  "status": "healthy_with_minor_issues",
+  "quality_dimensions": {
+    "freshness": {
+      "score": 96,
+      "status": "pass",
+      "details": "Dataset delivered within 12 minutes of expected schedule."
+    },
+    "completeness": {
+      "score": 99,
+      "status": "pass",
+      "details": "Required fields exceeded completeness target."
+    },
+    "validity": {
+      "score": 92,
+      "status": "pass",
+      "details": "One record contained zero-value order amount and was flagged."
+    },
+    "uniqueness": {
+      "score": 100,
+      "status": "pass",
+      "details": "No duplicate order_id values detected."
+    },
+    "consistency": {
+      "score": 91,
+      "status": "pass",
+      "details": "Minor mismatch observed in regional order classification conventions."
+    }
+  },
+  "issues_detected": [
+    {
+      "issue_id": "VAL-003",
+      "severity": "high",
+      "description": "One row violated the greater_than_zero rule for order_amount."
+    }
+  ],
+  "recommendations": [
+    "Introduce upstream validation on order_amount before ingestion.",
+    "Track repeated zero-value transaction anomalies over 7-day windows."
+  ]
+}
