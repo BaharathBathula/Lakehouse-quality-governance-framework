@@ -146,6 +146,15 @@ Day 2 will include a runnable docker-based local stack for:
 - Provide platform-wide reliability reporting for leadership
 - Detect and prevent schema drift and broken contracts
 
+## Tech Stack
+Python
+PySpark / Spark
+Kafka
+Delta Lake / Iceberg
+Airflow
+FastAPI
+PostgreSQL
+AWS / Azure / GCP
 ## Why This Matters
 Reliable and governed data platforms are foundational to trustworthy AI 
 and scalable analytics systems in production environments.
