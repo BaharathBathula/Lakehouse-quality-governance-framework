@@ -1,0 +1,68 @@
+dataset_name: customer_orders
+description: Gold-tier commerce orders dataset used by downstream analytics and AI systems.
+owner: data-platform@company.com
+domain: commerce
+tier: gold
+business_criticality: high
+
+schema:
+  - name: order_id
+    type: string
+    required: true
+    description: Unique identifier for each order
+  - name: customer_id
+    type: string
+    required: true
+    description: Customer identifier
+  - name: order_amount
+    type: float
+    required: true
+    description: Final order amount
+  - name: order_status
+    type: string
+    required: true
+    description: Order processing status
+  - name: order_ts
+    type: timestamp
+    required: true
+    description: Event timestamp
+  - name: region
+    type: string
+    required: true
+    description: Geographic region
+
+quality_rules:
+  - rule_id: Q001
+    column: order_id
+    expectation: not_null
+    severity: critical
+  - rule_id: Q002
+    column: order_id
+    expectation: unique
+    severity: critical
+  - rule_id: Q003
+    column: order_amount
+    expectation: greater_than_zero
+    severity: high
+  - rule_id: Q004
+    column: order_status
+    expectation: allowed_values
+    values: [completed, pending, failed]
+    severity: medium
+  - rule_id: Q005
+    column: region
+    expectation: allowed_values
+    values: [US, EU, APAC]
+    severity: low
+
+quality_slos:
+  freshness_minutes: 15
+  completeness_percent: 99.5
+  uniqueness_percent: 100.0
+  validity_percent: 99.0
+  consistency_percent: 99.0
+
+metadata:
+  lineage_ready: true
+  audit_required: true
+  pii_present: true
