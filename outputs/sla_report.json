@@ -1,0 +1,31 @@
+{
+  "dataset_name": "customer_orders",
+  "report_date": "2026-04-22",
+  "service_tier": "gold",
+  "sla_status": "meeting_targets",
+  "slis": {
+    "freshness": {
+      "target_minutes": 15,
+      "actual_minutes": 12,
+      "status": "pass"
+    },
+    "completeness": {
+      "target_percent": 99.5,
+      "actual_percent": 99.8,
+      "status": "pass"
+    },
+    "validity": {
+      "target_percent": 99.0,
+      "actual_percent": 99.1,
+      "status": "pass"
+    },
+    "uniqueness": {
+      "target_percent": 100.0,
+      "actual_percent": 100.0,
+      "status": "pass"
+    }
+  },
+  "breaches": [],
+  "escalation_status": "none",
+  "executive_summary": "All core SLIs met target thresholds for the reporting window."
+}
