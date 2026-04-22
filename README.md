@@ -81,7 +81,7 @@ Organizations commonly face the following challenges:
 
 This framework addresses those gaps with a unified architecture for quality, governance, and observability.
 
-## 🧠 Positioning
+## Positioning
 
 This framework acts as a **control plane for data reliability** in modern lakehouse architectures.
 
@@ -162,6 +162,30 @@ and governance in their own production environments.
 - Cloud-native design
 - Integration-ready for ML systems
 
+## Before vs After Impact
+
+| Area | Without This Framework | With This Framework |
+|------|----------------------|--------------------|
+| Data Quality Issues | Detected late (after dashboards break) | Detected early via validation rules |
+| SLA Monitoring | Manual / inconsistent | Automated and continuously tracked |
+| Schema Changes | Break pipelines silently | Detected via contract validation |
+| Governance | Ad-hoc / manual policies | Standardized policy-as-code |
+| PII Protection | Inconsistent controls | Enforced with governance policies |
+| Observability | Limited visibility | End-to-end monitoring |
+| Audit Readiness | Weak / reactive | Audit-ready evidence generation |
+| Data Trust | Low confidence | High confidence and reliability |
+
+---
+
+## 🎯 Key Outcome
+
+This framework transforms data platforms from:
+
+➡ Reactive systems (detecting issues late)  
+➡ To proactive systems (preventing issues early)
+
+It enables organizations to treat **data as a reliable, governed product** rather than an unpredictable asset.
+
 ## Quickstart (placeholder)
 Day 2 will include a runnable docker-based local stack for:
 - metadata store + sample datasets
@@ -193,16 +217,6 @@ Real-time governance dashboards
 ## Why This Matters
 Reliable and governed data platforms are foundational to trustworthy AI 
 and scalable analytics systems in production environments.
-
-## 📊 Before vs After
-
-| Problem | Without Framework | With Framework |
-|--------|------------------|----------------|
-| Data Quality Issues | Detected late | Detected early |
-| SLA Monitoring | Manual | Automated |
-| Governance | Inconsistent | Policy-driven |
-| Audit Readiness | Weak | Strong |
-| Data Trust | Low | High |
 
 ## Roadmap
 See `docs/07-roadmap.md`
