@@ -1,28 +1,46 @@
-# Lakehouse Quality & Governance Framework
-**
-An enterprise-grade framework to enforce **data quality**, **governance**, and **observability** across a modern Lakehouse (batch + streaming), with policy-as-code, automated checks, lineage-ready metadata, and SLA/SLO reporting.**
+# 🚀 Lakehouse Quality & Governance Framework
 
-## Executive Summary
-Data platforms fail quietly: late pipelines, broken schemas, silent null spikes, access misconfigurations, and untracked changes.
-This project provides a repeatable, production-minded framework that:
-- Defines **quality SLIs/SLOs** (freshness, completeness, validity, uniqueness, consistency)
-- Implements **policy-as-code governance** (PII tagging, RBAC rules, encryption requirements)
-- Automates **checks + scoring + reporting** for datasets and pipelines
-- Produces **audit-ready evidence** suitable for regulated environments
+> An enterprise-grade framework to enforce data quality, governance, and observability across modern Lakehouse architectures (batch + streaming).  
+> Built with policy-as-code, automated validation, lineage-ready metadata, and SLA/SLO-driven reliability.
 
-## What This Solves
-- “We don’t know if data is trustworthy until dashboards break”
-- No consistent definitions for quality/ownership/SLOs across domains
-- Schema drift and upstream changes are not governed
-- PII access controls are inconsistent and hard to audit
-- No standardized executive reporting for platform health
+---
 
-## Core Capabilities
-- **Dataset Quality Contracts** (YAML specs) + automated validation
-- **Quality Scoring Engine** (trend-based scoring + threshold alerts)
-- **Governance Policies**: PII classification, RBAC, retention, encryption requirements
-- **Observability**: SLA breach detection, drift checks, anomaly detection hooks
-- **Audit & Evidence**: exportable reports and O-1 mapping artifacts
+## 📌 Executive Summary
+
+Modern data platforms fail silently.
+
+- Pipelines run late without alerts  
+- Schemas drift without governance  
+- Data quality degrades unnoticed  
+- PII access becomes inconsistent  
+- Business dashboards break after the damage is done  
+
+This framework introduces a standardized, scalable, and production-ready solution to ensure:
+
+- Data is trustworthy  
+- Pipelines are observable  
+- Governance is enforced automatically  
+- Systems are audit-ready  
+
+---
+
+## 🎯 What This Framework Solves
+
+### Current Industry Problems
+
+- We don’t know data is broken until dashboards fail  
+- No standardized SLOs/SLIs for data quality  
+- Schema drift goes undetected  
+- Weak PII governance and access control  
+- No centralized reporting for platform health  
+
+### Our Solution
+
+- Unified Data Quality Contracts  
+- Policy-as-Code Governance Layer  
+- Automated Validation + Scoring Engine  
+- Observability-first architecture  
+- Exportable Audit & Compliance Reports 
 
 ## Problem Statement
 Organizations operating lakehouse platforms often lack standardized, 
