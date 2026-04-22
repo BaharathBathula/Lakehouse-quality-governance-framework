@@ -166,6 +166,16 @@ Real-time governance dashboards
 Reliable and governed data platforms are foundational to trustworthy AI 
 and scalable analytics systems in production environments.
 
+## 📊 Before vs After
+
+| Problem | Without Framework | With Framework |
+|--------|------------------|----------------|
+| Data Quality Issues | Detected late | Detected early |
+| SLA Monitoring | Manual | Automated |
+| Governance | Inconsistent | Policy-driven |
+| Audit Readiness | Weak | Strong |
+| Data Trust | Low | High |
+
 ## Roadmap
 See `docs/07-roadmap.md`
 
