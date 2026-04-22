@@ -49,3 +49,24 @@ A large-scale eCommerce platform processes millions of transactions daily across
 - Faster issue detection
 - Reduced operational risk
 - Improved trust in analytics systems
+
+## Scale Assumptions
+
+- 50M+ daily transactions
+- Multi-region data ingestion
+- 10+ downstream analytics systems
+- PII-sensitive datasets
+
+## Failure Scenario
+
+- Upstream schema change breaks pipeline
+- Framework detects:
+  - schema mismatch
+  - SLA breach
+  - validation failure
+
+## Result
+
+- Alert generated
+- Data blocked from downstream systems
+- Governance policy enforced
