@@ -69,6 +69,57 @@ enterprise-level compliance and decision-making.
 The concepts and architecture outlined here are applicable across
 industries including finance, healthcare, and large-scale digital platforms.
 
+## Core Capabilities
+
+### 1. Dataset Quality Contracts
+YAML-based dataset contracts define expectations such as:
+
+- Freshness
+- Completeness
+- Validity
+- Uniqueness
+- Consistency
+- Ownership
+- Critical columns
+- Required schema
+
+### 2. Quality Scoring Engine
+A standardized scoring layer evaluates datasets based on rule outcomes and SLA health, enabling:
+
+- Health scores by dataset
+- Trend-based quality measurement
+- Risk prioritization
+- Executive reporting
+
+### 3. Governance Policies
+Policy-as-code files define governance standards, including:
+
+- PII tagging
+- Access control requirements
+- Encryption mandates
+- Retention rules
+- Compliance evidence
+
+### 4. Observability and SLA Monitoring
+The framework supports operational observability by tracking:
+
+- Freshness SLO breaches
+- Pipeline reliability
+- Schema drift
+- Volume anomalies
+- Escalation status
+
+### 5. Audit-Ready Reporting
+The project produces exportable reports that demonstrate:
+
+- Dataset compliance status
+- Governance alignment
+- SLA adherence
+- Quality risk posture
+- Evidence suitable for audit and original contribution documentation
+
+---
+
 ## Industry Relevance
 The framework is designed to be cloud-agnostic and adaptable across
 AWS, Azure, and hybrid data platforms.
