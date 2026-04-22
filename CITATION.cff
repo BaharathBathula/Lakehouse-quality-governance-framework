@@ -1,1 +1,40 @@
+cff-version: 1.2.0
+title: "Lakehouse Quality & Governance Framework"
+message: "If you use this framework, please cite it as below."
+type: software
 
+authors:
+  - family-names: Bathula
+    given-names: Baharath
+
+affiliation: "Independent Researcher / Data & AI Engineer"
+
+abstract: >
+  An enterprise-grade framework for enforcing data quality, governance,
+  and observability across modern lakehouse architectures. This project
+  introduces a unified approach integrating data contracts, policy-as-code,
+  SLA monitoring, and audit-ready reporting for scalable data platforms.
+
+keywords:
+  - lakehouse
+  - data governance
+  - data quality
+  - observability
+  - data engineering
+  - SLA monitoring
+  - policy as code
+
+license: MIT
+version: 1.0.0
+date-released: 2026-04-22
+
+repository-code: "https://github.com/BaharathBathula/Lakehouse-quality-governance-framework"
+
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Bathula
+      given-names: Baharath
+  title: "Lakehouse Quality & Governance Framework"
+  year: 2026
+  url: "https://github.com/BaharathBathula/Lakehouse-quality-governance-framework"
