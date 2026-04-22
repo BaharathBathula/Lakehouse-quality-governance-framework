@@ -69,7 +69,19 @@ enterprise-level compliance and decision-making.
 The concepts and architecture outlined here are applicable across
 industries including finance, healthcare, and large-scale digital platforms.
 
-## Positioning
+## What This Solves
+
+Organizations commonly face the following challenges:
+
+- No standardized definitions for data quality across domains
+- No consistent ownership, freshness, or completeness SLAs
+- Weak governance around PII, RBAC, encryption, and retention
+- Schema drift and upstream changes that are not centrally monitored
+- Limited executive visibility into overall platform health
+
+This framework addresses those gaps with a unified architecture for quality, governance, and observability.
+
+## 🧠 Positioning
 
 This framework acts as a **control plane for data reliability** in modern lakehouse architectures.
 
