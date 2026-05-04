@@ -54,12 +54,50 @@ This framework proposes a unified, modular approach to:
 - Observability and alerting
 - Governance controls aligned with enterprise standards
 
+## ⚙️ System Components
+
+The framework consists of the following modules:
+
+- **Ingestion Layer**  
+  Handles structured and streaming data sources  
+
+- **Quality Engine**  
+  Performs schema validation, null checks, anomaly detection  
+
+- **SLA Monitor**  
+  Tracks pipeline execution time and latency thresholds  
+
+- **Governance Engine**  
+  Applies rules, lineage tracking, and compliance checks  
+
+- **Reliability Scoring Engine**  
+  Generates a reliability score for each dataset  
+
+- **Alerting System**  
+  Triggers alerts for SLA violations and quality failures  
+
 ## Architecture Overview
 <img width="1617" height="580" alt="architecture png" src="https://github.com/user-attachments/assets/26f62a04-9cc7-4a28-954b-1c1108520ff6" />  
 
 ## ⚙️ Execution Flow
 
 The framework follows a structured pipeline to enforce data quality, governance, and observability across datasets.
+
+## 🔬 Core Innovations
+
+This framework introduces several key innovations beyond traditional data quality systems:
+
+- **Data Reliability Scoring Engine**  
+  Assigns reliability scores to datasets based on quality, freshness, and SLA adherence  
+
+- **SLA-Aware Pipeline Monitoring**  
+  Tracks latency and failure patterns across batch and streaming pipelines  
+
+- **Layer-Aware Governance Model**  
+  Enforces governance rules across Bronze, Silver, Gold layers  
+
+- **Proactive Failure Detection System**  
+  Identifies anomalies before they impact downstream analytics and AI systems  
 
 ### Step 1: Data Ingestion
 - Data is ingested from batch or streaming sources  
