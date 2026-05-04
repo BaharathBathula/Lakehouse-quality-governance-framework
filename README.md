@@ -357,6 +357,15 @@ Real-time governance dashboards
 Reliable and governed data platforms are foundational to trustworthy AI 
 and scalable analytics systems in production environments.
 
+## 🚀 Why This Framework is Different
+
+Unlike traditional tools that focus only on data quality, this framework:
+
+- Combines quality + SLA + governance into one system  
+- Introduces reliability scoring for datasets  
+- Supports both batch and real-time pipelines  
+- Provides a unified governance model for lakehouse architectures  
+
 ## Roadmap
 See `docs/07-roadmap.md`
 
