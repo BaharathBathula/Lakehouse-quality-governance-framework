@@ -4,6 +4,10 @@
 > Built with policy-as-code, automated validation, lineage-ready metadata, and SLA/SLO-driven reliability.
 
 ---
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Architecture](https://img.shields.io/badge/architecture-lakehouse-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Focus](https://img.shields.io/badge/focus-data%20reliability-orange)
 
 ## 📌 Executive Summary
 
