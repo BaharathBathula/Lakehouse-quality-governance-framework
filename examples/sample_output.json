@@ -1,0 +1,7 @@
+{
+  "pipeline": "daily_transactions",
+  "status": "FAILED",
+  "latency": "15 mins",
+  "expected": "5 mins",
+  "severity": "HIGH"
+}
