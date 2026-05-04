@@ -1,13 +1,16 @@
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Architecture](https://img.shields.io/badge/architecture-lakehouse-blue)
+![Focus](https://img.shields.io/badge/focus-data%20reliability-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+> A production-grade framework for data reliability, SLA enforcement, and governance in modern lakehouse architectures.
+> 
 # 🚀 Lakehouse Quality & Governance Framework
 
 > An enterprise-grade framework to enforce data quality, governance, and observability across modern Lakehouse architectures (batch + streaming).  
 > Built with policy-as-code, automated validation, lineage-ready metadata, and SLA/SLO-driven reliability.
 
 ---
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Architecture](https://img.shields.io/badge/architecture-lakehouse-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Focus](https://img.shields.io/badge/focus-data%20reliability-orange)
 
 ## 📌 Executive Summary
 
