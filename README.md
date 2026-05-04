@@ -42,6 +42,15 @@ This framework introduces a standardized, scalable, and production-ready solutio
 - Observability-first architecture  
 - Exportable Audit & Compliance Reports 
 
+## 🧩 Configuration-Driven Design
+
+This framework is designed to be configuration-driven, allowing teams to define:
+
+- Data quality rules
+- SLA thresholds
+- Pipeline configurations
+- Governance policies
+
 ## Problem Statement
 Organizations operating lakehouse platforms often lack standardized, 
 scalable mechanisms for enforcing data quality, monitoring reliability, 
